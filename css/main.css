@@ -1,0 +1,164 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #030303;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/******* Header ************/
+
+.header {
+  min-height: 56px;
+  transition: min-height 0.3s;
+}
+
+.header_inner {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 5px #abbad3;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+.header_logo {
+  height: 72px;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+.header_title {
+  font-weight: 300;
+  font-size: 3em;
+  margin-top: 0.75em;
+  text-align: right;
+  display: inline-block;
+  color: #212121;
+  margin-left: auto;
+  padding-right: 0.15em;
+}
+
+/******* Main ************/
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main_content {
+  width: 100%;
+}
+
+/******* Social ************/
+
+.social {
+  width: 100%;
+  position: relative;
+  margin: 30px auto;
+}
+
+.social_item {
+  list-style-type: none;
+}
+
+.linkedin_logo {
+  display: block;
+  margin: 20px;
+}
+
+.github_logo {
+  display: block;
+  margin: 20px;
+}
+
+/******* World ************/
+
+.world {
+  width: 100%;
+  position: relative;
+  height: auto;
+  margin-top: 25px;
+  display: inline-block;
+  padding: 15px;
+}
+
+.world_picture {
+  width: 100%;
+  height: auto;
+}
+
+.world_text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5em;
+  color: #999999;
+}
+
+/******* Featured ************/
+
+.featured {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.featured_title {
+  font-weight: 200;
+  font-size: 2em;
+  display: inline-block;
+  color: #7d8799;
+  margin-left: 10px;
+}
+
+.featured_row {
+  margin: 8px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured_row,
+.featured_row > .featured_item {
+  padding: 0 5px 5px 5px;
+}
+
+.featured_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.featured_content {
+  padding: 10px;
+  text-align: center;
+}
+
+.featured_content img {
+  width: 100%;
+}
+
+.featured_item_title {
+  font-weight: lighter;
+}
+
+.feature_item_link {
+  font-size: 0.75em;
+  text-align: center;
+}
